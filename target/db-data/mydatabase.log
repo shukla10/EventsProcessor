@@ -1,6 +1,0 @@
-/*C1*/SET SCHEMA SYSTEM_LOBS
-INSERT INTO BLOCKS VALUES(0,2147483647,0)
-COMMIT
-/*C2*/SET SCHEMA PUBLIC
-drop table if exists EventDB CASCADE 
-create table EventDB (id varchar(255) not null, alert boolean not null, duration bigint not null, host varchar(255), type varchar(255), primary key (id))
