@@ -1,0 +1,17 @@
+/*C3*/SET SCHEMA PUBLIC
+drop table if exists EventDB CASCADE 
+create table EventDB (id varchar(255) not null, alert boolean not null, duration bigint not null, host varchar(255), type varchar(255), primary key (id))
+INSERT INTO EVENTDB VALUES('scsmbstgrp',FALSE,3,NULL,NULL)
+COMMIT
+INSERT INTO EVENTDB VALUES('scsmbstgra',TRUE,5,'12345','APPLICATION_LOG')
+COMMIT
+INSERT INTO EVENTDB VALUES('scsmbstgrb',FALSE,3,NULL,NULL)
+COMMIT
+INSERT INTO EVENTDB VALUES('scsmbstgrc',TRUE,8,NULL,NULL)
+COMMIT
+INSERT INTO EVENTDB VALUES('scsmbstgrd',TRUE,5,'12345','APPLICATION_LOG')
+COMMIT
+INSERT INTO EVENTDB VALUES('scsmbstgre',TRUE,8,NULL,NULL)
+COMMIT
+INSERT INTO EVENTDB VALUES('scsmbstgrf',TRUE,1342239745718,NULL,NULL)
+COMMIT
