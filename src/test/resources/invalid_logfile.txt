@@ -1,0 +1,3 @@
+{"id":"scsmbstgrz", "state":"STARTED", "type":"APPLICATION_LOG", "host":"12345", "timestamp":1491377495212}
+{"id":"scsmbstgrp", "state":"STARTED", "timestamp":1491377495213}
+{"id":"scsmbstgrp", "state":"FINISHED", "timestamp":1491377495216}
